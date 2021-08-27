@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="Es-co">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--    --------   --------   PRUEBA  -----     -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
+
+  <!-- Ionic icons-->
+  <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <!--<link rel="shortcut icon" href="assets/images//favicon.png">-->
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Pisicola el carmen</title>
+</head>
+
+<body>
+  <!--  =================   PAGUINA INICIAL- **INICIO** ================== -->
+  <header class="header">
+    <div class="container logo-nav-container">
+      <a class="navbar-brand" href="index.html"><img src="../imagenes/logo3.png" class="logo-brand" alt="logo"></a>
+      <nav class="navegacion">
+        <li class="item">
+          <a class="link" id="carta" href="eventos.html">EVENTOS</a>
+        </li>
+        <li class="item">
+          <a class="link" id="carta" href="restaurante.html">RESTAURANTE</a>
+        </li>
+        <li class="item">
+          <a class="link" id="carta" href="galeria.html">GALERIA</a>
+        </li>
+        <li class="item">
+          <a class="link" id="carta" href="nosotros.html">NOSOTROS </a>
+        </li>
+        <li class="item">
+          <a class="link" id="carta" href="contacto.html">CONTACTO</a>
+        </li>
+        <li class="item">
+          <a class="link" id="carta" href="reserva.html">RESERVAS</a>
+        </li>
+      </nav>
+    </div>
+  </header>
+
+
+  <!--  =================   PAGUINA INICIAL- **FIN** ================== -->
+  <section id="reserva">
+    <div class="contenedor">
+      <form action="" class="form">
+        <div class="form-header">
+          <h2 class="form-tittle"><span>RESERVAS</span></h2>
+        </div>
+
+        <label for="NOMBRE" class="form-label">NOMBRE:</label>
+        <input type="text" id="NOMBRE" class="form-input" placeholder="Obligatorio">
+
+        <label for="CEL" class="form-label">CELULAR:</label>
+        <input type="text" id="CEL" class="form-input" placeholder="Obligatorio">
+
+        <label for="@" class="form-label">CORREO ELECTRÓNICO:</label>
+        <input type="text" id="@" class="form-input" placeholder="Opcional">
+
+        <label for="fecha" class="form-label">FECHA:</label>
+        <input type="date" id="fecha" class="form-input" placeholder="obligatorio">
+
+        <label for="hora" class="form-label">HORA:</label>
+        <input type="time" id="hora" class="form-input" placeholder="obligatorio">
+
+        <label for="NUM_PERSON" class="form-label">NUMERO DE PERSONAS:</label>
+        <!--<input type="text" id="NUM_PERSON" class="form-input" placeholder="Obligatorio">-->
+        <select name="NUM_PERSON" class="form-input">
+          <option value="nulo">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10 o mas">10 o mas</option>
+        </select>
+
+        <label for="OBSERVACIONES" class="form-label">OBSERVACIONES:</label>
+        <input type="text" id="OBSERVACIONES" class="form-input"
+          placeholder="Escriba aquí cualquier información adicional que considere necesaria">
+
+        <p class="pp"> Granja piscicola el carmen, calle 144 km 1 via huevos oro, Ibagué-Tolima </p>
+        <div class="container">
+          <div class="content-center2">
+            <a href="reserva.html" id="Enviar" class="btn btn-primary" role="button" aria-pressed="true">Enviar</a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- ========         FOOTER **  INICIO  **        ============        -->
+  <section id="footer" class="content-center4">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="../imagenes/logo.jpg" class="logo-dark" alt="logo">
+      </div>
+      <div class="col-md-4">
+        <ul>
+          <li class="list-style-type"><a href="eventos.html">Eventos</a></li>
+          <li class="list-style-type"><a href="restaurante.html">Restaurante</a></li>
+          <li class="list-style-type"><a href="galeria.html">Galeria</a></li>
+          <li class="list-style-type"><a href="nosotros.html">Nosotros</a></li>
+          <li class="list-style-type"><a href="contacto.html">Contacto</a></li>
+          <li class="list-style-type"><a href="reserva.html">Reserva</a></li>
+        </ul>
+      </div>
+    </div>
+    <ul>
+      <li class="list-inline-item"><a href="#"><i class="icon ion-logo-instagram"></i></a></li>
+      <li class="list-inline-item"><a href="#"><i class="icon ion-logo-facebook"></i></a></li>
+    </ul>
+    <small>©2021 All Rights Reserved, Created by Pisicola Del Carmen</small>
+  </section>
+  <!-- ========         FOOTER **  FIN  **        ============        -->
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

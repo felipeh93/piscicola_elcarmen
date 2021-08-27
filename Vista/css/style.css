@@ -1,0 +1,636 @@
+h1{font-size: 66px;font-weight: 600 ;line-height: 80px;}
+h2{font-size: 48px;margin-bottom: 30px; }
+h5{margin-bottom: 0px;}
+p{
+    font-size: 18px;
+    line-height:  1.8em; 
+    margin-bottom: 0px;
+}
+
+.header{
+    background-image:url("../imagenes/inicio.jpeg");
+    color: white;
+    padding: 2rem 0;     
+    }
+    .header a{
+        color: black;
+        text-decoration: none;
+        background-color: #ffffff85;
+        font-size: 18px;
+        -webkit-box-shadow: 2px 2px 5px #999;
+        -moz-box-shadow: 2px 2px 5px #999;
+        letter-spacing: 1px;
+    }
+    
+    .logo-nav-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .logo-nav-container img{
+        width: 200px;
+        height: 200px;
+        
+    }
+    
+    .navegacion  li{
+    display: inline-block;
+    }
+    
+    .navegacion li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.5s linear;
+    border-radius: 3px;
+    
+    }
+    
+    a{  
+    color: black;
+    text-decoration: none;
+    }
+
+
+
+#carta:hover{
+    font-size: 30px;
+    color:black;
+
+}
+
+
+section{
+    margin-top: 80px;
+    padding: 80px;
+}
+table{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+
+.navbar{
+    background-color: rgb(181, 231, 116); 
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.274);
+    min-height: 60px;
+    
+
+}
+
+.nav-link{
+    color: black;
+    font-weight: bolder;
+}
+.nav-link:hover{
+    color: black;
+}
+
+.nav-item a{
+    font: bolder ;
+}
+
+.navbar-toggler{font-size: 40px;}
+.navbar-toggler:focus{outline: none; }
+
+.collapse:focus{display: inline;}
+
+#inicio{
+    background-image: url('../imagenes/portada2.jpg');
+    padding: 1px;
+    max-width: 100%;
+    height: 1000px;
+}
+
+.container-img{
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 700px;
+}
+
+.content-center{
+    /*max-width: 800px;*/
+    width: auto;
+    margin: 20px auto 40px auto;
+    text-align: center;
+    height: auto;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    /*min-height: 700px;*/
+    color: black;
+
+}
+
+.content-center2{
+    max-width: 800px;
+    margin: 30px auto 60px auto;
+    text-align: center;
+}
+
+.content-center3{
+    /*max-width: 800px;*/
+    width: auto;
+    margin: 20px auto 40px auto;
+    text-align: center;
+    height: auto;
+    min-height: 700px;
+    color: white;
+
+}
+
+
+.portafolio-container{
+    position: relative;
+    overflow: hidden;
+    margin:10px 0 10px 0;
+    border-radius: 2px;
+    align-content: center;
+}
+
+.portafolio-container-pesca{
+    
+    position: relative;
+    overflow: hidden;
+    margin:10px 0 10px 0;
+    border-radius: 2px;
+    align-content: center;
+}
+
+.portafolio-container img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    width: 900px;
+    height:500px;
+    
+}
+
+.portafolio-container-pesca img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    width: 900px;
+    height:700px;
+
+}
+
+.portafolio-container:hover img {
+    -moz-transforms: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.portafolio-container-pesca:hover img {
+    -moz-transforms: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.portafolio-detalle{
+    position: absolute;
+    bottom: 25px;
+    left:25px;
+    z-index:9000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.portafolio-detalle h2{
+    margin-bottom: 0px;
+}
+
+.portafolio-detalle a h2, .portafolio-detalle a p, .portafolio-detalle a h3{
+    color: white;
+}
+
+.btn-primary{
+    background-color: rgb(26, 78, 26);
+    border: 2px solid rgb(26, 78, 26);
+    width: auto;
+    height: auto;
+    font-size:x-large;
+
+}
+
+.imagenpisicola{
+    width: auto;
+    margin: 20px auto 40px auto;
+    text-align: center;
+}
+
+/*---- estilos de yeimi  ----  */
+
+#accordion{
+    text-decoration:none;
+}
+.card-header a{
+    text-decoration: none;
+}
+
+#restaurante{
+    background-image:url(../imagenes/fondocarta.jpg);
+    color: white;
+    font-size: 25px;
+}
+.img-redondo {
+    height: 90px;
+    width: 90px;
+    border: 2px solid white;
+    border-radius: 400px
+}
+
+table {
+   width: 100%;
+   border: 3px solid white;
+   float: left;
+   background-color: rgba(0, 0, 0, 0.383);
+   text-decoration: none;
+} 
+
+
+.list-inline-item{
+    margin-top: 50px;
+}
+th, td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 3px solid #000000;
+   border-collapse: collapse;
+   padding: 0.3em;
+   caption-side: bottom;
+   color: white;
+   font-size: 30px;
+   font-weight: 10px;
+}
+
+/*th{
+   background: #DCBA77;
+}
+td{
+   background: #BDF9B6;
+}*/
+
+.card-link {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.card{
+    background-image:url(../imagenes/fondocarta.jpg);
+}
+
+
+/*  estilos de juan pablo cardona*/
+
+#reserva {
+	background-image: url(../imagenes/fondo2.jpg);
+	-webkit-background-size: cover;
+	background: cover;
+}	
+
+.contenedor .form .form-header .form-tittle {
+	font-weight: normal;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.contenedor .form .form-header .form-tittle span {
+	color: #ffffff;
+}
+
+.contenedor .form {
+	background: rgba(0, 0, 0, .6);
+	width: 90%;
+	max-width: 650px;
+	margin: left;
+	padding: 5px 35px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 3px;
+}
+
+.contenedor .form .form-label {
+	display: block;
+	color: #ffffff;
+	font-size: 16px;
+	font-family: sans-serif;
+	position: relative;
+}
+
+.contenedor .form .form-input{
+	background: rgba(0, 0, 0, .7);
+	border:none;
+	outline: none;
+	border-bottom: 2px solid #ffffff;
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #ffffff;
+	font-family: sans-serif;
+}
+
+.contenedor .form .pp {
+	font-size: 15px;
+	color: #ffffff;
+	font-family: roboto;
+}
+
+#Enviar{
+    background-color: white;
+    color: black;
+    font-size: 40px;
+    width: 500px;
+}
+
+#CONTACTENOS {
+	box-sizing: border-box;
+	background: #181818;
+	color: #fff;
+	font-family: 'quicksand', sans-serif;
+	padding: 0 1.5em;
+}
+
+.content {
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1.5em;
+}
+
+.logo {
+	text-align: center;
+	font-size: 3em;
+}
+
+.logo span {
+	color: #b70e21;
+}
+
+.tarjeta {
+	box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.tarjeta {
+	padding: 1em;
+}
+
+.formulario_contacto {
+	background: #222222;
+}
+
+.formulario_contacto form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.formulario_contacto form .block {
+	grid-column: 1/3;
+}
+
+.formulario_contacto form p {
+	margin: 0;
+	padding: 1em;
+}
+
+.formulario_contacto form button,
+.formulario_contacto form input,
+.formulario_contacto form textarea {
+	width: 100%;
+	padding: .7em;
+	border: none;
+	background: none;
+	outline: none;
+	border-bottom: 1px solid #0735de;
+	color: #ffffff;
+}
+
+.formulario_contacto form button {
+	background: #000;
+	color: #fff;
+	border: 0;
+	text-transform: uppercase;
+	padding: 1em;
+}
+
+.formulario_contacto form button:hover,
+.formulario_contacto form button.focus {
+	background: #0735de;
+	color: #000;
+	transition: background-color 1s ease-out;
+	outline: 0;
+}
+
+.info_contacto {
+	background: #000000;
+}
+
+.info_contacto h3,
+.info_contacto ul,
+.info_contacto p {
+	text-align: center;
+	margin: 0	0	1rem 0;
+}
+
+.info_contacto ul {
+	list-style: none;
+	padding: 1em;
+}
+/*  -------  FIN ----estilos de juan pablo cardona*/
+
+/*  -------  INICIO----estilos de angel david*/
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 10px;
+}
+
+.tz-gallery .lightbox img {
+    width: 550PX;
+    height:400px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.685);
+}
+
+.tz-gallery .lightbox-vertical img {
+    width: 530PX;
+    height:600px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.685);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery .lightbox-vertical img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+.content-center4{
+    /*max-width: 800px;*/
+    background-color: #2d6803;
+    width: auto;
+    margin: 20px auto 40px auto;
+    text-align: center;
+    height: auto;
+    color: white;
+    list-style-type: none;
+    list-style-type: center;
+}
+
+.content-center4 a{
+    color: white;
+}
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+    section{
+        padding: 2px;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+
+    .tz-gallery .lightbox img{
+        width: 280PX;
+        height: 200px;
+        margin: 5px 0 5px 0;
+    }
+
+    .tz-gallery .lightbox-vertical img{
+        width: 200PX;
+        height: 250px;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1209px){
+    section{
+        padding: 2px;
+    }
+    .portafolio-container img{
+        -moz-transition: all 0.8s;
+        -webkit-transition: all 0.8s;
+        transition: all 0.8s;
+        max-width: 300px;
+        max-height:100px;        
+    }
+
+    .portafolio-container-pesca img{
+        -moz-transition: all 0.8s;
+        -webkit-transition: all 0.8s;
+        transition: all 0.8s;
+        width: 200px;
+        height:250px;
+    
+    }
+
+    .portafolio-detalle{
+        position: absolute;
+        bottom: 10px;
+        left:10px;
+        z-index:9000;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .portafolio-detalle h3{
+        margin-bottom: 0px;
+        font-size: 15px;
+    }
+
+    .portafolio-detalle p{
+        margin-bottom: 0px;
+        font-size: 12px;
+    }
+
+
+    .tz-gallery .lightbox img{
+        width: 250PX;
+        height: 200px;
+        margin: 2px 0 2px 0;
+    }
+
+    .tz-gallery .lightbox-vertical img{
+        width: 200PX;
+        height: 250px;
+    }
+
+
+}
+
+@media (min-width: 1210px) and (max-width: 1366px){
+    .portafolio-container img{
+        -moz-transition: all 0.8s;
+        -webkit-transition: all 0.8s;
+        transition: all 0.8s;
+        max-width: 500px;
+        max-height:300px;        
+    }
+
+    .portafolio-container-pesca img{
+        -moz-transition: all 0.8s;
+        -webkit-transition: all 0.8s;
+        transition: all 0.8s;
+        width: 500px;
+        height:500px;
+    
+    }
+    .tz-gallery .lightbox img{
+        width: 350PX;
+        height: 250px;
+    }
+
+    .tz-gallery .lightbox-vertical img{
+        width: 350PX;
+        height: 450px;
+    }
+
+
+}
+
+
+/*  -------  FIN ----estilos de ANGEL DAVID---*/

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="es-co">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!--    --------   --------   PRUEBA  -----     -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
+
+  <!-- Ionic icons-->
+  <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/images//favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Pisicola el carmen</title>
+
+</head>
+
+<body>
+ <!--  =================   PAGUINA INICIAL- **INICIO** ================== -->
+ <header class="header">
+  <div class="container logo-nav-container">
+    <a class="navbar-brand" href="index.html"><img src="css/imagenes/logo3.png" class="logo-brand" alt="logo"></a>
+    <nav class="navegacion">
+      <li class="item">
+        <a class="link" id="carta" href="eventos.html">EVENTOS</a>
+      </li>
+      <li class="item">
+        <a class="link" id="carta" href="restaurante.html">RESTAURANTE</a>
+      </li>
+      <li class="item">
+        <a class="link" id="carta" href="galeria.html">GALERIA</a>
+      </li>
+      <li class="item">
+        <a class="link" id="carta" href="nosotros.html">NOSOTROS </a>
+      </li>
+      <li class="item">
+        <a class="link" id="carta" href="contacto.html">CONTACTO</a>
+      </li>
+      <li class="item">
+        <a class="link" id="carta" href="reserva.html">RESERVAS</a>
+      </li>     
+    </nav>
+  </div>
+</header>
+
+
+<!--  =================   PAGUINA INICIAL- **FIN** ================== -->
+  <!--  =================  RESTAURANTE - CARTA - **  INICIO***  =========-->
+  <div class="container">
+    <h2>MENÚ</h2>
+    <br>
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#collapseOne">Entradas</a>
+          <div id="collapseOne" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <table id="myTable" data-name="myTable">
+                <tr>
+                 <th style="width:25%;">.....</th>
+                 <th style="width:60%;">Plato</th>
+                 <th style="width:25%;">Precio</th>
+                </tr>
+                <tbody align="char">
+                 <tr>
+                   <td><img src="css/imagenes/entrada-01.jpg" class="img-redondo" alt="entrada-01"></td>
+                   <td>Dedos de Queso</td>
+                   <td>$ 10.000</td>
+                 </tr>
+                 <tr>
+                   <td><img src="css/imagenes/entrada-02.jpg" class="img-redondo" alt="entrada-02"></td>
+                   <td>Nachos con Carne Molida</td>
+                   <td>$ 15.000</td>
+                 </tr>
+                 <tr>
+                   <td><img src="css/imagenes/entrada-03.jpg" class="img-redondo" alt="entrada-03"></td>
+                   <td>Chisp de plátano verde</td>
+                   <td>$ 11.000</td>
+                 </tr>
+                 <tr>
+                   <td><img src="css/imagenes/entrada-04.jpg" class="img-redondo" alt="entrada-04"></td>
+                   <td>Dedos de Pescado</td>
+                   <td>$ 15.000</td>
+                  </tr>
+               </tbody> 
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#collapseTwo">Menú Especial</a>
+          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <table id="myTable" data-name="myTable">
+                <tr>
+                 <th style="width:25%;">.....</th>
+                 <th style="width:60%;">Plato</th>
+                 <th style="width:25%;">Precio</th>
+                </tr>
+                <tbody align="char">
+                 <tr>
+                   <td><img src="css/imagenes/especial-01.jpg" class="img-redondo" alt="especial-01"></td>
+                   <td>Costillas BBQ</td>
+                   <td>$ 33.500</td>
+                 </tr>
+                 <tr>
+                   <td><img src="css/imagenes/especial-02.jpg" class="img-redondo" alt="especial-02"></td>
+                   <td>Cordero al Horno</td>
+                   <td>$ 30.000</td>
+                 </tr>
+                 <tr>
+                   <td><img src="css/imagenes/especial-03.jpg" class="img-redondo" alt="especial-03"></td>
+                   <td>Filete de Cachama al Horno</td>
+                   <td>$ 35.200</td>
+                  </tr>
+                  <tr>
+                   <td><img src="css/imagenes/especial-04.jpg" class="img-redondo" alt="especial-04"></td>
+                   <td>Churrasco</td>
+                   <td>$ 28.300</td>
+                 </tr>
+               </tbody> 
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#collapseThree">Menú Basico</a>
+          <div id="collapseThree" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <table id="myTable" data-name="myTable">
+                <tr>
+                 <th style="width:25%;">.....</th>
+                 <th style="width:60%;">Plato</th>
+                 <th style="width:25%;">Precio</th>
+               </tr>
+               <tbody align="char">
+                 <tr>
+                   <td><img src="css/imagenes/basico-01.jpg" class="img-redondo" alt="basico-01"></td>
+                   <td>Mojarra Frita</td>
+                   <td>$ 20.000</td>
+                 </tr>
+                 <tr>
+                   <td><img src="css/imagenes/basico-02.jpg" class="img-redondo" alt="basico-02"></td>
+                   <td>Mojarra en Viudo</td>
+                   <td>$ 22.000</td>
+                 </tr>
+                 <tr>
+                   <td><img src="css/imagenes/basico-03.jpg" class="img-redondo" alt="basico-03"></td>
+                   <td>Sancocho de Gallina Criolla</td>
+                   <td>$ 16.000</td>
+                 </tr>
+                 <tr>
+                   <td><img src="css/imagenes/basico-04.jpg" class="img-redondo" alt="basico-04"></td>
+                   <td>Dedos de Pescado</td>
+                   <td>$ 15.000</td>
+                 </tr>
+               </tbody> 
+             </table>
+           </div>
+         </div>
+       </div>
+     </div>
+
+
+
+     <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#collapseFour">Menú Infantil</a>
+          <div id="collapseFour" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <table id="myTable" data-name="myTable">
+                <tr>
+                 <th style="width:25%;">.....</th>
+                 <th style="width:60%;">Plato</th>
+                 <th style="width:25%;">Precio</th>
+                </tr>
+                <tbody align="char">
+                 <tr>
+                   <td><img src="css/imagenes/infantil-01.jpg" class="img-redondo" alt="infantil-01"></td>
+                   <td>Arroz con Pollo</td>
+                   <td>$ 10.000</td>
+                 </tr>
+                 <tr>
+                   <td><img src="css/imagenes/infantil-02.jpg" class="img-redondo" alt="infantil-02"></td>
+                   <td>Nugget de pollo</td>
+                   <td>$ 15.000</td>
+                 </tr>
+                 <tr>
+                   <td><img src="css/imagenes/infantil-03.jpg" class="img-redondo" alt="infantil-03"></td>
+                   <td>Sandwich</td>
+                   <td>$ 10.000</td>
+                 </tr>
+                 <tr>
+                   <td><img src="css/imagenes/infantil-04.jpg" class="img-redondo" alt="infantil-04"></td>
+                   <td>Spaghetti con Carne</td>
+                   <td>$ 18.800</td>
+                  </tr>
+               </tbody> 
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+     <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#collapseFive">Comidas Rapidas</a>
+          <div id="collapseFive" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <table id="myTable" data-name="myTable">
+                <tr>
+                 <th style="width:25%;">.....</th>
+                 <th style="width:60%;">Plato</th>
+                 <th style="width:25%;">Precio</th>
+                </tr>
+                <tbody align="char">
+                 <tr>
+                   <td><img src="css/imagenes/rapida-01.jpg" class="img-redondo" alt="rapida-01"></td>
+                   <td>Pizza Classica</td>
+                   <td>$ 10.000</td>
+                 </tr>
+                 <tr>
+                   <td><img src="css/imagenes/rapida-02.jpg" class="img-redondo" alt="rapida-02"></td>
+                   <td>Hamburguesa sencilla</td>
+                   <td>$ 12.000</td>
+                 </tr>
+                 <tr>
+                   <td><img src="css/imagenes/rapida-03.jpg" class="img-redondo" alt="rapida-03"></td>
+                   <td>Salchipapa</td>
+                   <td>$ 11.000</td>
+                 </tr>
+                 <tr>
+                   <td><img src="css/imagenes/rapida-04.jpg" class="img-redondo" alt="rapida-04"></td>
+                   <td>Hot Dog Sencillo</td>
+                   <td>$ 12.000</td>
+                  </tr>
+               </tbody> 
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+     <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#collapseSix">Bebidas</a>
+          <div id="collapseSix" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <table id="myTable" data-name="myTable">
+                <tr>
+                 <th style="width:25%;">.....</th>
+                 <th style="width:60%;">Plato</th>
+                 <th style="width:25%;">Precio</th>
+                </tr>
+                <tbody align="char">
+                 <tr>
+                   <td><img src="css/imagenes/bebida-01.jpg" class="img-redondo" alt="bebida-01"></td>
+                   <td>Refresco de Frutos Rojos</td>
+                   <td>$ 8.000</td>
+                 </tr>
+                 <tr>
+                   <td><img src="css/imagenes/bebida-02.jpg" class="img-redondo" alt="bebida-02"></td>
+                   <td>Jugo Natural</td>
+                   <td>$ 8.000</td>
+                 </tr>
+                 <tr>
+                   <td><img src="css/imagenes/bebida-03.jpg" class="img-redondo" alt="bebida-03"></td>
+                   <td>Refrescos-Gaseosas</td>
+                   <td>$ 2.500</td>
+                 </tr>
+                 <tr>
+                   <td><img src="css/imagenes/bebida-04.jpg" class="img-redondo" alt="bebida-04"></td>
+                   <td>Cóctel</td>
+                   <td>$ 15.000</td>
+                  </tr>
+               </tbody> 
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+     <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#collapseSeven">Postres</a>
+          <div id="collapseSeven" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <table id="myTable" data-name="myTable">
+                <tr>
+                 <th style="width:25%;">.....</th>
+                 <th style="width:60%;">Plato</th>
+                 <th style="width:25%;">Precio</th>
+                </tr>
+                <tbody align="char">
+                 <tr>
+                   <td><img src="css/imagenes/postre-01.jpg" class="img-redondo" alt="postre-01"></td>
+                   <td>Copa de Helado</td>
+                   <td>$ 6.500</td>
+                 </tr>
+                 <tr>
+                   <td><img src="css/imagenes/postre-02.jpg" class="img-redondo" alt="postre-02"></td>
+                   <td>Pay de Limón</td>
+                   <td>$ 6.000</td>
+                 </tr>
+                 <tr>
+                   <td><img src="css/imagenes/postre-03.jpg" class="img-redondo" alt="postre-03"></td>
+                   <td>Pancakes</td>
+                   <td>$ 8.000</td>
+                 </tr>
+                 <tr>
+                   <td><img src="css/imagenes/postre-04.jpg" class="img-redondo" alt="postre-04"></td>
+                   <td>Macedonia de Frutas</td>
+                   <td>$ 12.000</td>
+                  </tr>
+               </tbody> 
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+      <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#collapseEight">Adicionales</a>
+          <div id="collapseEight" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <table id="myTable" data-name="myTable">
+                <tr>
+                 <th style="width:25%;">.....</th>
+                 <th style="width:60%;">Plato</th>
+                 <th style="width:25%;">Precio</th>
+                </tr>
+                <tbody align="char">
+                  <tr>
+                   <td><img src="css/imagenes/adicional-01.jpg" class="img-redondo" alt="adicional-01"></td>
+                   <td>Tocineta Ahumada</td>
+                   <td>$ 2.000</td>
+                 </tr>
+                 <tr>
+                   <td><img src="css/imagenes/adicional-02.jpg" class="img-redondo" alt="adicional-02"></td>
+                   <td>Papas Francesas</td>
+                   <td>$ 1.500</td>
+                 </tr>
+                 <tr>
+                   <td><img src="css/imagenes/adicional-03.jpg" class="img-redondo" alt="adicional-03"></td>
+                   <td>Queso</td>
+                   <td>$ 8.000</td>
+                 </tr>
+                 <tr>
+                   <td><img src="css/imagenes/adicional-04.jpg" class="img-redondo" alt="adicional-04"></td>
+                   <td>Huevos de Codornis</td>
+                   <td>$ 1.500</td>
+                 </tr>
+                </tbody> 
+             </table>
+           </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+  
+  <!--  =================  RESTAURANTE - CARTA - **  FIN ***  =========-->
+  <!-- ========         FOOTER **  INICIO  **        ============        -->
+  <section id="footer" class="content-center4">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="css/imagenes/logo.jpg" class="logo-dark" alt="logo">
+      </div>
+      <div class="col-md-4">
+        <ul>
+          <li class="list-style-type"><a href="eventos.html">Eventos</a></li>
+          <li class="list-style-type"><a href="restaurante.html">Restaurante</a></li>
+          <li class="list-style-type"><a href="galeria.html">Galeria</a></li>
+          <li class="list-style-type"><a href="nosotros.html">Nosotros</a></li>
+          <li class="list-style-type"><a href="contacto.html">Contacto</a></li>
+          <li class="list-style-type"><a href="reserva.html">Reserva</a></li>
+        </ul>
+      </div>
+    </div>
+    <ul>
+      <li class="list-inline-item"><a href="#"><i class="icon ion-logo-instagram"></i></a></li>
+      <li class="list-inline-item"><a href="#"><i class="icon ion-logo-facebook"></i></a></li>
+    </ul>
+    <small>©2021 All Rights Reserved, Created by Pisicola Del Carmen</small>
+  </section>
+<!-- ========         FOOTER **  FIN  **        ============        -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
